@@ -1,15 +1,17 @@
 .menu-image{
-    background-image: url('../html/images/home\ image.jpeg');
+    background-image: url('../html/images/background\ image1.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     display: flex;
+    row-gap: 15px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .item-search{
-    width: 400px;
+    width: 400px;  
     height: 50px;
     border-radius: 30px;
     border: none;
@@ -25,7 +27,17 @@
     height: 50px;
     margin-left: 25px;
     border-radius: 20px;
-    background-color: orange;
+    background-color:orangered;
     border: none;
 
+}
+.d-quote{
+    color: white;
+    font-family: arial;
+}
+.quotes-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

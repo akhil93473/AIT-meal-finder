@@ -1,0 +1,550 @@
+.nav-bg {
+    background-color: orangered;
+}
+
+.navIcon {
+    margin-right: 5px;
+}
+
+.spoons {
+    color: white;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(../images/Food\ Finder\ Logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.sBox-sBtn-div{
+    position:fixed;
+    top: 70px;
+    z-index: 10000;
+}
+.b-s-box {
+    height: 45px;
+    width: 350px;
+    border: 1px solid skyblue;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px skyblue;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.s-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 23px;
+    border: 2px solid white;
+    background-color: darkgoldenrod;
+    margin-left: 10px;
+}
+
+.s-icon {
+    color: white;
+}
+
+.b-quote {
+    color: white;
+    font-family: arial;
+}
+
+.quote-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CATEGORIES */
+
+.underline {
+    width: 100px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.cat-heading {
+    margin: 20px;
+}
+
+.cats-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+.catdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px lightgrey;
+}
+
+.cat-img {
+    width: 80%;
+    height: 80%;
+    transition-duration: 0.2s;
+}
+
+.cat-img:hover {
+    transform: scale(1.2);
+}
+
+.cats-title {
+    position: relative;
+    left: 40px;
+    background-color: orange;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/* MEALS */
+
+.meals-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px;
+}
+.mealCard-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px lightblue;
+}
+.mealCard-img{
+    width: 100%;
+    height: 80%;
+}
+.mealTitle{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+    padding: 2px;
+    background-color: brown;
+    border-radius: 2px;
+    text-align: center;
+}
+.meal-cat-name{
+    margin-left: 20px;
+}
+
+/* mealIngredients-main-div */
+
+.mealIngredients-main-div{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    gap: 15px;
+    
+
+}
+.firstDiv{
+    display: flex;
+    gap: 100px;
+    box-shadow: 2px 2px 4px gray;
+}
+.mealDetailImg{
+    width: 300px;
+    height: 450px;
+}
+.firstTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.firstTwo-ingred{
+    display: flex;
+    flex-direction: column;
+    height: 175px;
+    
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 10px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    /* margin: 5px; */
+
+}
+.mealName{
+    color:orange; 
+}
+.tags{
+    border:1.5px solid black;
+    border-radius: 4px;
+     background-color:orange; 
+     color:white;
+}
+
+.secondDiv{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px gray;
+    padding: 15px;
+}
+.measure-head{
+    color: orchid;
+}
+.second-second{
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.thirdDiv{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px gray;
+    padding: 15px;
+
+}
+.areaName{
+    color:orange;position:relative;bottom:210px
+}
+
+/* FOOTER */
+
+#footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: orange;
+}
+.moveToTopBtn{
+    position: relative;
+    left: 550px;
+    top: 15px;
+}
+.foot-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80px;
+    background-color: orangered;
+    margin: 15px 0px 0px 0px;
+
+}
+
+.foot-h3 {
+    color: white;
+    font-family: arial;
+
+}
+
+.foot-rights {
+    color: black;
+    font-size: 12px;
+
+}
+
+
+
+/* mobile screen */
+@media screen and (max-width:769px) {
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        background-image: url('../images/istockphoto-1457433817-612x612.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .sBox-sBtn-div{
+        position:fixed;
+        top: 60px;
+        z-index: 10000;
+    }
+    .b-s-box {
+        height: 30px;
+        width: 200px;
+        border-radius: 12px;
+        border: none;
+        text-align: center;
+        align-content: center;
+    }
+
+    .s-btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 23px;
+        border: 2px solid white;
+        background-color: darkgoldenrod;
+        margin-left: 10px;
+    }
+
+    .s-icon {
+        color: white;
+    }
+
+    .b-quote {
+        color: white;
+        font-family: arial;
+
+    }
+
+    .fav-quote {
+        font-size: 18px;
+
+    }
+
+    .pers-quote {
+        font-size: 12px;
+    }
+
+    .quote-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* CATEGORIES */
+
+.underline {
+    width: 100px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.cat-heading {
+    margin: 20px;
+}
+
+.cats-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+.catdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px skyblue;
+
+}
+
+.cat-img {
+    width: 80%;
+    height: 80%;
+    transition-duration: 0.2s;
+}
+
+.cat-img:hover {
+    transform: scale(1.2);
+}
+
+.cats-title {
+    position: relative;
+    left: 40px;
+    background-color: orange;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/* MEALS */
+
+.meals-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 25px;
+}
+.mealCard-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px lightblue;
+}
+.mealCard-img{
+    width: 100%;
+    height: 80%;
+}
+.mealTitle{
+    font-size: 8px;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+    padding: 1px;
+    background-color: brown;
+    border-radius: 2px;
+    text-align: center;
+}
+.meal-cat-name{
+    margin-left: 20px;
+}
+
+/* mealIngredients-main-div */
+
+.font{
+    font-size: 8px;
+}
+.mealIngredients-main-div{
+    display: flex;
+    
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 5px;
+
+}
+.firstDiv{
+    display: flex;
+    column-gap: 2px;
+    row-gap: 0px;
+    box-shadow: 2px 2px 4px orange;
+    
+
+}
+.mealDetailImg{
+    width:125px;
+    height: 300px;
+}
+.firstTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    
+    flex-wrap: wrap;
+    
+}
+.firstTwo-ingred{
+    display: flex;
+ gap: 1px;
+ font-size: 6px;
+ flex-direction: column;
+ 
+    
+
+}
+.mealName{
+    color:orange; 
+}
+.tags{
+    border:0.5px solid black;
+    border-radius: 8px;
+     background-color:orange; 
+     color:white;
+}
+
+.secondDiv{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px orange;
+    padding: 8px;
+}
+.measure-head{
+    color: orchid;
+    font-size: 8px;
+}
+.second-second{
+    display: flex;
+    font-size: 8px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    column-gap: 3px;
+    row-gap: 1px;
+}
+.thirdDiv{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px gray;
+    padding: 4px;
+    font-size: 10px;
+}
+.areaName{
+    color:orange;position:relative;bottom:130px
+}
+
+/* FOOTER */
+
+.foot-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+    background-color: orangered;
+    margin-top: 40px;
+
+}
+.moveToTopBtn{
+    position: relative;
+    left: 110px;
+    top: 40px;
+}
+.foot-h3 {
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+
+}
+
+.foot-rights {
+    color: black;
+    font-size: 6px;
+
+}
+}
